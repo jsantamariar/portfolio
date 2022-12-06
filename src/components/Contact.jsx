@@ -60,14 +60,13 @@ export const Contact = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <form onSubmit={handleSubmit}>
                     <h2>Get In Touch</h2>
-                    <p>If you want to contact me, please press the <strong>SEND</strong> button and write me an email.
+                    <p className="contact-description">If you want to contact me, please press the <strong>SEND</strong> button and write me an email.
                       <br />
                       I'd be glad to answer you as soon as possible <span className="fs-3">&#129309;&#127996;</span>.
                     </p>
 
                     <Row>
                       <Col size={12} className="px-1">
-                        {/* <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea> */}
                         <button onClick={() => window.open('mailto:santamaria.web.dev@gmail.com')} type="submit"><span>SEND</span></button>
                       </Col>
                     </Row>

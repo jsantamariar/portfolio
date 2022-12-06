@@ -322,6 +322,14 @@ a[href="#connect"] {
   border-right: 0.08em solid #666;
 }
 
+form p.contact-description {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
