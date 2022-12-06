@@ -60,7 +60,7 @@ export const Contact = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <form onSubmit={handleSubmit}>
                     <h2>Get In Touch</h2>
-                    <p className="contact-description">If you want to contact me, please press the <strong>SEND</strong> button and write me an email.
+                    <p className="contact-description">If you want to contact me, please press the <strong>CONTACT</strong> button and write me an email.
                       <br />
                       I'd be glad to answer you as soon as possible <span className="fs-3">&#129309;&#127996;</span>.
                     </p>
