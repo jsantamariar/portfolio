@@ -67,7 +67,7 @@ export const Contact = () => {
 
                     <Row>
                       <Col size={12} className="px-1">
-                        <button onClick={() => window.open('mailto:santamaria.web.dev@gmail.com')} type="submit"><span>SEND</span></button>
+                        <button onClick={() => window.open('mailto:santamaria.web.dev@gmail.com')} type="submit"><span>CONTACT</span></button>
                       </Col>
                     </Row>
                   </form>
