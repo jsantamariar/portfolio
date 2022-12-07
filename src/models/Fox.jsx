@@ -22,6 +22,8 @@ const Fox = (props) => {
 
         return () => {
             action.fadeOut(0.5);
+            setCloseInfo(true);
+
         }
     }, [foxAnimation]);
 
@@ -30,14 +32,14 @@ const Fox = (props) => {
         <>
             {!closeInfo &&
                 <Html
-                    wrapperClass="htmlScreen"
+                    wrapperClass={"htmlScreen"}
                     transform
                     distanceFactor={2.6}
                     position={[0, -0.3, -1.4]}
                     rotation-x={-0.226}
                 >
-                    <p className='close-info' onClick={() => setCloseInfo(true)}>
-                        You will see the controls <br /> in the upper right corner &#128521;
+                    <p className={!closeInfo ? "close-info" : "close-htmlScreen"} onClick={() => null}>
+                        You'll see the controls <br /> in the upper right corner &#128521;
                     </p>
                 </Html>
             }

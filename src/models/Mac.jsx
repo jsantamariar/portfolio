@@ -13,7 +13,7 @@ const Mac = (props) => {
                 position={[0, 1.51, -1.4]}
                 rotation-x={-0.226}
             >
-                <iframe src="https://jorgesantamaria.web.app/" width={450} height={285} />
+                <iframe src="https://threejs-portfolio-teal.vercel.app/" width={450} height={285} />
             </Html>
         </primitive>
     )

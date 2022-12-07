@@ -103,7 +103,6 @@ export const Projects = () => {
                                                 />
                                                 <Mac scale={0.7} position={[0.5, -0.9, 0]} rotation={[-0, 0.3, -0.2]} />
                                                 <Text
-                                                   font="./bangers-v20-latin-regular.woff"
                                                    fontSize={0.12}
                                                    letterSpacing={0.05}
                                                    position={[2, 0.4, 0]}
@@ -114,7 +113,6 @@ export const Projects = () => {
                                                    Macbook Pro
                                                 </Text>
                                                 <Text
-                                                   font="./bangers-v20-latin-regular.woff"
                                                    fontSize={0.06}
                                                    letterSpacing={0.12}
                                                    position={[2, 0, 0]}
