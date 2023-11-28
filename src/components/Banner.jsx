@@ -64,10 +64,18 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>I've worked for US Companies as a frontend UI developer. Here you'll find interesting projects I made. Enjoy it!</p>
-                  <a href="#connect">
-                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} />
-                    </button>
-                  </a>
+                  <div style={{ display: 'flex', gap: 30 }}>
+
+                    <a href="#connect">
+                      <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} />
+                      </button>
+                    </a>
+                    <a target="_blank" style={{ textDecoration: 'none' }} href="https://bold.pro/my/jorge-santamaria-231128150828" rel="noreferrer">
+                      <button>Portfolio <ArrowRightCircle size={25} />
+                      </button>
+                    </a>
+                  </div>
+
                 </div>}
             </TrackVisibility>
           </Col>
