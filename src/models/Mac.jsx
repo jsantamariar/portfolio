@@ -10,12 +10,12 @@ const Mac = (props) => {
         wrapperClass="htmlScreen"
         transform
         distanceFactor={2.6}
-        position={[0, 1.51, -1.4]}
-        rotation-x={-0.226}
+        position={[0.15, 1.8, -1.2]}
+        rotation-x={-0.3}
       >
         <iframe
           title="mac"
-          src="https://threejs-portfolio-teal..app/"
+          src="https://jorgesantamaria.com"
           width={450}
           height={285}
         />

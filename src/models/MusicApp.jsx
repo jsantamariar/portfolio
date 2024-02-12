@@ -19,7 +19,7 @@ const MusicApp = (props) => {
       </a>
       <iframe
         title="music app"
-        src={"https://music-jsantamariabf..app/"}
+        src={"https://music-jsantamariabf.vercel.app/"}
         {...props}
       />
     </Html>
