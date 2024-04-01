@@ -10,10 +10,14 @@ const FraserApp = (props) => {
       position={[1.3, 0, -1.4]}
       rotation-x={-0.226}
     >
-      <a target="_blank" href="https:/fraserlee.com" rel="noreferrer">
+      <a target="_blank" href="https://www.fraserlee.com/" rel="noreferrer">
         Full Project
       </a>
-      <iframe title="Fraser Lee" src={"https:/fraserlee.com"} {...props} />
+      <iframe
+        title="Fraser Lee"
+        src={"https://www.fraserlee.com/"}
+        {...props}
+      />
     </Html>
   );
 };
