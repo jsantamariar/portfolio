@@ -350,6 +350,17 @@ form p.contact-description {
   line-height: 1.5em;
   width: 96%;
 }
+form p.contact-description {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+
+form .pointer {
+  cursor: pointer;
+}
 
 /************ Skills Css ************/
 .skill {
