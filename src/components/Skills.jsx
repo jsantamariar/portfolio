@@ -8,30 +8,29 @@ import threejsLogo from "../assets/img/threejs-logo.svg";
 import jestLogo from "../assets/img/jest-logo.svg";
 import vitestLogo from "../assets/img/vitest-logo.svg";
 
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
-
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
+      items: 1,
+    },
   };
 
   return (
@@ -43,41 +42,45 @@ export const Skills = () => {
               <h2>Skills</h2>
               <p>I work primarily on Javascript-based technology stacks.</p>
               <br />
-              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="owl-carousel owl-theme skill-slider"
+              >
                 <div className="item">
-                  <img src={jsLogo} alt="Image" />
+                  <img src={jsLogo} alt="javascript" />
                   <h5>Javascript (+ES6)</h5>
                 </div>
                 <div className="item">
-                  <img src={cssLogo} alt="Image" />
+                  <img src={cssLogo} alt="css" />
                   <h5>CSS 3</h5>
                 </div>
                 <div className="item">
-                  <img src={htmlLogo} alt="Image" />
+                  <img src={htmlLogo} alt="html" />
                   <h5>HTML 5</h5>
                 </div>
                 <div className="item">
-                  <img src={reactLogo} alt="Image" />
+                  <img src={reactLogo} alt="react" />
                   <h5>React JS</h5>
                 </div>
                 <div className="item">
-                  <img src={reactNativeLogo} alt="Image" />
+                  <img src={reactNativeLogo} alt="react native" />
                   <h5>React Native</h5>
                 </div>
                 <div className="item">
-                  <img src={vueLogo} alt="Image" />
+                  <img src={vueLogo} alt="vue" />
                   <h5>Vue JS</h5>
                 </div>
                 <div className="item">
-                  <img src={threejsLogo} alt="Image" />
+                  <img src={threejsLogo} alt="threejs" />
                   <h5>Three JS</h5>
                 </div>
                 <div className="item">
-                  <img src={jestLogo} alt="Image" />
+                  <img src={jestLogo} alt="jestjs" />
                   <h5>Jest JS</h5>
                 </div>
                 <div className="item">
-                  <img src={vitestLogo} alt="Image" />
+                  <img src={vitestLogo} alt="vitest" />
                   <h5>Vitest</h5>
                 </div>
               </Carousel>
@@ -85,7 +88,11 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img
+        className="background-image-left"
+        src={colorSharp}
+        alt="colorsharp"
+      />
     </section>
-  )
-}
+  );
+};
