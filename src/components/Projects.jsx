@@ -16,6 +16,7 @@ import {
   Text,
 } from "@react-three/drei";
 import Fox from "../models/Fox";
+import FraserApp from "../models/FraserApp";
 
 export const Projects = () => {
   const projects = [
@@ -74,10 +75,7 @@ export const Projects = () => {
                         <Nav.Link eventKey="first">Vue Music App</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link
-                          style={{ pointerEvents: "none" }}
-                          eventKey="second"
-                        ></Nav.Link>
+                        <Nav.Link eventKey="second">Fraser Lee</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">3D Fox Animation</Nav.Link>
@@ -95,6 +93,20 @@ export const Projects = () => {
                         >
                           <Float rotationIntensity={0.5}>
                             <MusicApp width={650} height={350} />
+                          </Float>
+                        </Canvas>
+                      </Tab.Pane>
+                      <Tab.Pane className="panel-projects" eventKey="second">
+                        <Canvas
+                          camera={{
+                            fov: 40,
+                            near: 0.5,
+                            far: 1000,
+                            position: [-2, 1, 3.5],
+                          }}
+                        >
+                          <Float rotationIntensity={0.5}>
+                            <FraserApp width={650} height={350} />
                           </Float>
                         </Canvas>
                       </Tab.Pane>
