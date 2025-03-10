@@ -92,8 +92,11 @@ export const Projects = () => {
                             position: [-2, 1, 3.5],
                           }}
                         >
+                          <color args={["#000000"]} attach="background" />
+                          <ambientLight intensity={2} color="white" />
+
                           <Float rotationIntensity={0.5}>
-                            <MusicApp width={650} height={350} />
+                            <WatAI width={650} height={350} />
                           </Float>
                         </Canvas>
                       </Tab.Pane>
@@ -107,7 +110,7 @@ export const Projects = () => {
                           }}
                         >
                           <Float rotationIntensity={0.5}>
-                            <FraserApp width={650} height={350} />
+                            <MusicApp width={650} height={350} />
                           </Float>
                         </Canvas>
                       </Tab.Pane>
@@ -120,11 +123,8 @@ export const Projects = () => {
                             position: [-2, 1, 3.5],
                           }}
                         >
-                          <color args={["#000000"]} attach="background" />
-                          <ambientLight intensity={2} color="white" />
-
                           <Float rotationIntensity={0.5}>
-                            <WatAI width={650} height={350} />
+                            <FraserApp width={650} height={350} />
                           </Float>
                         </Canvas>
                       </Tab.Pane>
