@@ -17,6 +17,7 @@ import {
 } from "@react-three/drei";
 import Fox from "../models/Fox";
 import FraserApp from "../models/FraserApp";
+import WatAI from "../models/WatAI";
 
 export const Projects = () => {
   const projects = [
@@ -72,13 +73,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Vue Music App</Nav.Link>
+                        <Nav.Link eventKey="first">WAT AI</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Fraser Lee</Nav.Link>
+                        <Nav.Link eventKey="second">Vue Music App</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">3D Fox Animation</Nav.Link>
+                        <Nav.Link eventKey="third">Fraser Lee</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content id="slideInUp">
@@ -123,7 +124,7 @@ export const Projects = () => {
                           <ambientLight intensity={2} color="white" />
 
                           <Float rotationIntensity={0.5}>
-                            <Fox scale={0.02} position={[0, -0.5, 0]} />
+                            <WatAI width={650} height={350} />
                           </Float>
                         </Canvas>
                       </Tab.Pane>

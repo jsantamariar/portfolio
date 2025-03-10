@@ -76,8 +76,8 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I've worked for US Companies as a frontend developer. Here
-                    you'll find interesting projects I made. Enjoy it!
+                    Frontend developer and psychologist. Here you'll find
+                    interesting projects I made. Enjoy it!
                   </p>
                   <div style={{ display: "flex", gap: 30 }}>
                     <a href="#connect">
